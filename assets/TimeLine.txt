@@ -1,0 +1,5 @@
+Class name change
+card-text -> paragraph-text
+color-text -> color-main-text
+
+Reorder Code
