@@ -226,10 +226,10 @@ main {
 }
 .card-content-bundle {
   width: 20rem;
-  border-radius: 3rem;
   outline: 1px solid var(--border);
   padding: 1rem 0;
   margin-bottom: 2rem;
+  border-radius: 3rem !important;
 }
 .card-header {
   justify-content: space-evenly;
