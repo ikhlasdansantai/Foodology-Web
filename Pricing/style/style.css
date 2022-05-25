@@ -208,6 +208,10 @@ nav .btn:last-child i {
   background-size: 100% 100%;
   background-position-x: left;
 }
+/* ======== 
+  *Main 
+    =======
+            */
 main {
   /* padding: 1rem 1.5rem; */
   margin-top: 4rem;
@@ -408,7 +412,10 @@ main {
 .accordion-content p {
   color: #bbb;
 }
-
+/* ======== 
+  *Testimonials 
+    =======
+            */
 #testimonials {
   text-align: left;
   margin-top: 5rem;
@@ -460,7 +467,10 @@ main {
   text-align: left;
   z-index: -2;
 }
-
+/* ======== 
+  *Footer 
+    =======
+            */
 footer {
   margin-top: 10rem;
   padding: 1rem 1.5rem;
@@ -509,6 +519,10 @@ footer .copyright,
   .h2-title {
     font-size: 2.2rem;
   }
+  /* ======== 
+  *Actual Style 
+    =======
+            */
   .container-all,
   main {
     display: grid;
@@ -567,6 +581,10 @@ footer .copyright,
     gap: 0;
     flex-direction: row;
   }
+  /* ======== 
+  *Question 
+    =======
+            */
   #faq {
     grid-column: 1 / 5;
     display: grid;
@@ -591,6 +609,10 @@ footer .copyright,
     align-items: center;
     flex-wrap: wrap;
   }
+  /* ======== 
+  *Testimonials 
+    =======
+            */
   #testimonials {
     grid-column: 1 / 5;
     display: grid;
@@ -638,6 +660,10 @@ footer .copyright,
     grid-row: 1;
     transform: scale(1);
   }
+  /* ======== 
+  *Footer 
+    =======
+            */
   footer {
     grid-column: 2 / 4;
     display: flex;
