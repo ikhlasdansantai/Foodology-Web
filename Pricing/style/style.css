@@ -226,7 +226,7 @@ main {
 }
 .card-content-bundle {
   width: 20rem;
-  outline: 1px solid var(--border);
+  outline: 1px solid red;
   padding: 1rem 0;
   margin-bottom: 2rem;
   border-radius: 3rem !important;
