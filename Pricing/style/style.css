@@ -226,10 +226,10 @@ main {
 }
 .card-content-bundle {
   width: 20rem;
-  outline: 1px solid red;
   padding: 1rem 0;
   margin-bottom: 2rem;
-  border-radius: 3rem !important;
+  border: 1px solid var(--border);
+  border-radius: 3rem;
 }
 .card-header {
   justify-content: space-evenly;
@@ -686,7 +686,7 @@ footer .copyright,
 }
 @media (min-width: 768px) {
   nav {
-    flex-basis: 50%;
+    flex-basis: 65%;
   }
   .sub-heading {
     font-size: 1rem;
@@ -715,6 +715,9 @@ footer .copyright,
   }
 }
 @media (min-width: 992px) {
+  nav {
+    flex-basis: 55%;
+  }
   .card-wrapper .card {
     width: 40rem !important;
   }
